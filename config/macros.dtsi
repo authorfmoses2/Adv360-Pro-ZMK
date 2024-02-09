@@ -2,7 +2,7 @@ macro_delete_word: macro_delete_word{
 compatible = "zmk,behavior-macro";
 label = "macro_delete_word";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp BSPC>;
+bindings = <&sk LEFT_CONTROL>, <&kp BSPC>;
 };
 macro_go_right: macro_go_right{
 compatible = "zmk,behavior-macro";
