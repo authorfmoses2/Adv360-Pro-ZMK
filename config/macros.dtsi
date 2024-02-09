@@ -1,9 +1,3 @@
-macro_new_go_left: macro_new_go_left{
-compatible = "zmk,behavior-macro";
-label = "macro_new_go_left";
-#binding-cells = <0>;
-bindings = <&kp LG(LCTRL)>, <&kp LEFT_ARROW>;
-};
 macro_delete_word: macro_delete_word{
 compatible = "zmk,behavior-macro";
 label = "macro_delete_word";
